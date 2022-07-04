@@ -21,9 +21,9 @@ span {
 }
 .agency-title {
   font-weight: 600;
-font-size: 31.25px;
-line-height: 123.6%;
-text-align: center;
+  font-size: 31.25px;
+  line-height: 123.6%;
+  text-align: center;
 }
 .agency-description {
   text-align: center;
@@ -32,5 +32,5 @@ text-align: center;
   color: rgba(123, 123, 123, 1);
   font-weight: 400;
   font-size: 16px;
-  line-height: 150.6%;
+  line-height: 150.6%
 }
