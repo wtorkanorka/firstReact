@@ -6,7 +6,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postinstall": "npm simple-git-hooks"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -21,6 +22,23 @@
     "babel-eslint": "^10.1.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "prettier": "^2.7.1"
+    "nano-staged": "^0.8.0",
+    "prettier": "^2.7.1",
+    "simple-git-hooks": "^2.8.0",
+    "stylelint": "^14.9.1",
+    "stylelint-config-idiomatic-order": "^8.1.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^26.0.0",
+    "stylelint-prettier": "^2.0.0"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "./node_modules/.bin/nano-staged"
+  },
+  "nano-staged": {
+    "*.{js}": [
+      "eslint",
+      "prettier"
+    ],
+    "*.css": "stylelint **/*.css --fix --config .stylelintrc"
   }
 }

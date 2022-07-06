@@ -11,13 +11,13 @@
 
 .theme,
 .menu {
-    display: flex;
-  }
+  display: flex;
+}
 
 .theme {
-    justify-content: center;
+  justify-content: center;
 }
-  
+
 .header-button {
   all: unset;
   cursor: pointer;
@@ -37,4 +37,3 @@
 .menu {
   justify-content: flex-end;
 }
-
