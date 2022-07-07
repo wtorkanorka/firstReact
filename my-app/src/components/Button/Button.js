@@ -5,6 +5,9 @@ export default function Button() {
   const [count, setState] = useState(0)
   useEffect(() => {
     document.title = `${count}`
+    if (count >= 5) {
+      document.title = 'много'
+    }
   })
 
   return (

@@ -7,15 +7,15 @@ import gear from '../../assets/icons/gear.svg'
 import shareBoxLine from '../../assets/icons/share-box-line.svg'
 export default function AboutUs() {
   return (
-    <>
-      <div className={style['about-us']}>
+    <div className={style['about-us']}>
+      <div className={style['about-us__first']}>
         <img
           src={aboutUsImg}
           alt="about-us_img"
           className={style['about-us-img']}
         />
         <p>About Us</p>
-        <h2>
+        <h2 className={style['about-us__title']}>
           We Are <span>Making Ideas Better</span> For Everyone
         </h2>
         <p className={style['second-description']}>
@@ -31,35 +31,27 @@ export default function AboutUs() {
           <div className={style['about-us-element__icon']}>
             <img src={iconFile} alt="icon-file" />
           </div>
-          <p>
-            World leader in consulting <br /> and finance
-          </p>
+          <p>World leader in consulting and finance</p>
         </div>
         <div className={style['about-us-element']}>
           <div className={style['about-us-element__icon']}>
             <img src={moreLess} alt="icon-file" />
           </div>
-          <p>
-            A focused team with a <br /> specialized skill
-          </p>
+          <p>A focused team with a specialized skill</p>
         </div>
         <div className={style['about-us-element']}>
           <div className={style['about-us-element__icon']}>
             <img src={gear} alt="icon-file" />
           </div>
-          <p>
-            Trusted and professional <br /> advisors for you
-          </p>
+          <p>Trusted and professional advisors for you</p>
         </div>
         <div className={style['about-us-element']}>
           <div className={style['about-us-element__icon']}>
             <img src={shareBoxLine} alt="icon-file" />
           </div>
-          <p>
-            Experience to give you a <br /> better results
-          </p>
+          <p>Experience to give you a better results</p>
         </div>
       </div>
-    </>
+    </div>
   )
 }
