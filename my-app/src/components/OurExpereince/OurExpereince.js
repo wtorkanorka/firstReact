@@ -1,6 +1,7 @@
 import React from 'react'
 import style from './OurExpereince.module.css'
 import Button from '../Button/Button'
+import OurExperienceElement from '../OurExperienceElement/OurExperienceElement'
 
 export default function OurExpereince() {
   return (
@@ -16,22 +17,10 @@ export default function OurExpereince() {
       </p>
       <Button />
       <div className={style['our-experience__blocks']}>
-        <div className={style['our-experience-block']}>
-          <h3>250+</h3>
-          <p>Global Customer</p>
-        </div>
-        <div className={style['our-experience-block']}>
-          <h3>156+</h3>
-          <p>Project Completed</p>
-        </div>
-        <div className={style['our-experience-block']}>
-          <h3>50+</h3>
-          <p>Team Member</p>
-        </div>
-        <div className={style['our-experience-block']}>
-          <h3>15+</h3>
-          <p>Our Company</p>
-        </div>
+        <OurExperienceElement />
+        <OurExperienceElement />
+        <OurExperienceElement />
+        <OurExperienceElement />
       </div>
     </div>
   )

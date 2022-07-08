@@ -1,11 +1,15 @@
 import style from './AboutUs.module.css'
 import aboutUsImg from '../../assets/images/about-us_img.png'
 import Button from '../Button/Button'
-import iconFile from '../../assets/icons/icon-file.svg'
-import moreLess from '../../assets/icons/more-less.svg'
-import gear from '../../assets/icons/gear.svg'
-import shareBoxLine from '../../assets/icons/share-box-line.svg'
-export default function AboutUs() {
+// import iconFile from '../../assets/icons/icon-file.svg'
+// import moreLess from '../../assets/icons/more-less.svg'
+// import gear from '../../assets/icons/gear.svg'
+// import shareBoxLine from '../../assets/icons/share-box-line.svg'
+import AboutUsElement from '../AboutUsElement/AboutUsElement'
+
+export default function AboutUs(props) {
+  let file = props.file
+  console.log(file, '123')
   return (
     <div className={style['about-us']}>
       <div className={style['about-us__first']}>
@@ -27,30 +31,7 @@ export default function AboutUs() {
         <Button />
       </div>
       <div className={style['about-us__second']}>
-        <div className={style['about-us-element']}>
-          <div className={style['about-us-element__icon']}>
-            <img src={iconFile} alt="icon-file" />
-          </div>
-          <p>World leader in consulting and finance</p>
-        </div>
-        <div className={style['about-us-element']}>
-          <div className={style['about-us-element__icon']}>
-            <img src={moreLess} alt="icon-file" />
-          </div>
-          <p>A focused team with a specialized skill</p>
-        </div>
-        <div className={style['about-us-element']}>
-          <div className={style['about-us-element__icon']}>
-            <img src={gear} alt="icon-file" />
-          </div>
-          <p>Trusted and professional advisors for you</p>
-        </div>
-        <div className={style['about-us-element']}>
-          <div className={style['about-us-element__icon']}>
-            <img src={shareBoxLine} alt="icon-file" />
-          </div>
-          <p>Experience to give you a better results</p>
-        </div>
+        <AboutUsElement file={file} />
       </div>
     </div>
   )
