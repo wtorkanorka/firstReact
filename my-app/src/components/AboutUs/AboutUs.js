@@ -9,7 +9,7 @@ import AboutUsElement from '../AboutUsElement/AboutUsElement'
 
 export default function AboutUs(props) {
   let file = props.file
-  console.log(file, '123')
+
   return (
     <div className={style['about-us']}>
       <div className={style['about-us__first']}>

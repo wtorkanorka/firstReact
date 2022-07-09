@@ -3,7 +3,8 @@ import style from './OurExpereince.module.css'
 import Button from '../Button/Button'
 import OurExperienceElement from '../OurExperienceElement/OurExperienceElement'
 
-export default function OurExpereince() {
+export default function OurExpereince(props) {
+  let file = props
   return (
     <div className={style['our-experience']}>
       <p>Our Expereince</p>
@@ -17,10 +18,7 @@ export default function OurExpereince() {
       </p>
       <Button />
       <div className={style['our-experience__blocks']}>
-        <OurExperienceElement />
-        <OurExperienceElement />
-        <OurExperienceElement />
-        <OurExperienceElement />
+        <OurExperienceElement file={file} />
       </div>
     </div>
   )

@@ -40,12 +40,30 @@ function App() {
       boxShadow: 'box-shadow: 4px 5px 15px rgba(0, 0, 0, 0.4);',
     },
   ]
+  let OurExpereinceContent = [
+    {
+      text: '250+',
+      description: 'Global Customer',
+    },
+    {
+      text: '156+',
+      description: 'Project Completed',
+    },
+    {
+      text: '50+',
+      description: 'Team Member',
+    },
+    {
+      text: '15+',
+      description: 'Our Company',
+    },
+  ]
   return (
     <>
       <Header />
       <Hero />
       <AboutUs file={file} />
-      <OurExpereince />
+      <OurExpereince file={OurExpereinceContent} />
     </>
   )
 }
