@@ -2,17 +2,17 @@ import React from 'react'
 import style from './AboutUsElement.module.css'
 
 export default function AboutUsElement(props) {
-  const styles = {
-    boxShadow: props.file.map(item => item.boxShadow),
-    paddingTop: '25px',
-    paddingLeft: '27px',
-    paddingRight: '17px',
-    display: 'flex',
-    flexDirection: 'column',
-    paddingBottom: '21px',
-    alignItems: 'center',
-    background: props.file.map(item => item.backgroundColor),
-  }
+  // const styles = {
+  //   boxShadow: props.file.map(item => item.boxShadow),
+  //   paddingTop: '25px',
+  //   paddingLeft: '27px',
+  //   paddingRight: '17px',
+  //   display: 'flex',
+  //   flexDirection: 'column',
+  //   paddingBottom: '21px',
+  //   alignItems: 'center',
+  //   background: props.file.map(item => item.backgroundColor),
+  // }
 
   let file = props.file.map(item => (
     <div className={style['about-us-element']} key={item.id}>

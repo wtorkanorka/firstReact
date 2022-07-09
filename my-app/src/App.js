@@ -8,6 +8,11 @@ import fileIcon from './assets/icons/icon-file.svg'
 import moreLess from './assets/icons/more-less.svg'
 import gear from './assets/icons/gear.svg'
 import shareBoxLine from './assets/icons/share-box-line.svg'
+import TeamMember from './components/TeamMember/TeamMember'
+import gustavo from './assets/images/Gustavo.png'
+import abram from './assets/images/abram.png'
+import phillip from './assets/images/phillip.png'
+import talan from './assets/images/talan.png'
 
 function App() {
   const file = [
@@ -58,12 +63,35 @@ function App() {
       description: 'Our Company',
     },
   ]
+  let TeamMebmerContent = [
+    {
+      profileImg: gustavo,
+      name: 'Gustavo Herwitz',
+      job: 'UI/UX Designer',
+    },
+    {
+      profileImg: abram,
+      name: 'Phillip Curtis',
+      job: 'Graphic Designer',
+    },
+    {
+      profileImg: phillip,
+      name: 'Talan Torff',
+      job: 'Web Developer',
+    },
+    {
+      profileImg: talan,
+      name: 'Abram Vaccaro',
+      job: 'App Developer',
+    },
+  ]
   return (
     <>
       <Header />
       <Hero />
       <AboutUs file={file} />
       <OurExpereince file={OurExpereinceContent} />
+      <TeamMember file={TeamMebmerContent} />
     </>
   )
 }
