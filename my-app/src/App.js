@@ -13,6 +13,7 @@ import gustavo from './assets/images/Gustavo.png'
 import abram from './assets/images/abram.png'
 import phillip from './assets/images/phillip.png'
 import talan from './assets/images/talan.png'
+import OurWork from './components/OurWork/OurWork'
 
 function App() {
   const file = [
@@ -92,6 +93,7 @@ function App() {
       <AboutUs file={file} />
       <OurExpereince file={OurExpereinceContent} />
       <TeamMember file={TeamMebmerContent} />
+      <OurWork />
     </>
   )
 }
