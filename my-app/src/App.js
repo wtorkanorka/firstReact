@@ -86,6 +86,7 @@ function App() {
       job: 'App Developer',
     },
   ]
+
   return (
     <>
       <Header />
@@ -93,7 +94,7 @@ function App() {
       <AboutUs file={file} />
       <OurExpereince file={OurExpereinceContent} />
       <TeamMember file={TeamMebmerContent} />
-      <OurWork />
+      <OurWork file={TeamMebmerContent} />
     </>
   )
 }
