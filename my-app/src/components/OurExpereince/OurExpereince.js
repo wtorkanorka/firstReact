@@ -4,7 +4,10 @@ import Button from '../Button/Button'
 import OurExperienceElement from '../OurExperienceElement/OurExperienceElement'
 
 export default function OurExpereince(props) {
+  let test = document.querySelector('.our-experience')
+
   let file = props
+
   return (
     <div className={style['our-experience']}>
       <p>Our Expereince</p>

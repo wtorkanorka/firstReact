@@ -1,0 +1,24 @@
+{
+  "about_us": [
+    {
+      "icon": "/icons/icon-file.svg",
+      "color": "#FF5300",
+      "title": "World leader in consulting and finance"
+    },
+    {
+      "icon": "/icons/more-less.svg",
+      "color": "#7B7B7B",
+      "title": "A focused team with a specialized skill"
+    },
+    {
+      "icon": "/icons/gear.svg",
+      "color": "#00ACFF",
+      "title": "Trusted and professional advisors for you"
+    },
+    {
+      "icon": "/icons/share-box-line.svg",
+      "color": "#373737",
+      "title": "Experience to give you a better results"
+    }
+  ]
+}

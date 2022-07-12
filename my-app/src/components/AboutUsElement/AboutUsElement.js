@@ -16,10 +16,10 @@ export default function AboutUsElement(props) {
 
   let file = props.file.map(item => (
     <div className={style['about-us-element']} key={item.id}>
-      <div className={style['about-us-element__icon']}>
-        <img src={item.icon} alt="123" />
+      <div className={style['about-us-element__icon']} key={item.id}>
+        <img src={item.icon} alt="123" key={item.id} />
       </div>
-      <p>{item.text}</p>
+      <p key={item.id}>{item.text}</p>
     </div>
   ))
   return <>{file}</>
