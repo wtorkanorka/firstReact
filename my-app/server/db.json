@@ -20,5 +20,27 @@
       "color": "#373737",
       "title": "Experience to give you a better results"
     }
+  ],
+  "TeamMebmerContent": [
+    {
+      "profileImg": "../src/images/Gustavo.png",
+      "name": "Gustavo Herwitz",
+      "job": "UI/UX Designer"
+    },
+    {
+      "profileImg": "../src/images/abram.png",
+      "name": "Phillip Curtis",
+      "job": "Graphic Designer"
+    },
+    {
+      "profileImg": "../src/images/phillip.png",
+      "name": "Talan Torff",
+      "job": "Web Developer"
+    },
+    {
+      "profileImg": "../src/images/talan.png",
+      "name": "Abram Vaccaro",
+      "job": "App Developer"
+    }
   ]
 }

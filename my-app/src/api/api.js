@@ -28,4 +28,11 @@ export const Api = {
       aboutUs,
     })
   },
+  async getTeamMember(data, setData) {
+    const teamMember = await makeRequest('GET', '/team_member')
+    setData({
+      ...data,
+      teamMember,
+    })
+  },
 }
