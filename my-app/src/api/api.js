@@ -29,10 +29,17 @@ export const Api = {
     })
   },
   async getTeamMember(data, setData) {
-    const teamMember = await makeRequest('GET', '/team_member')
+    const teamMember = await makeRequest('GET', '/team_mebmer_content')
     setData({
       ...data,
       teamMember,
+    })
+  },
+  async getClientsFeedbacks(data, setData) {
+    const clientsFeedback = await makeRequest('GET', '/clients_feedback')
+    setData({
+      ...data,
+      clientsFeedback,
     })
   },
 }

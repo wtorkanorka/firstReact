@@ -21,26 +21,40 @@
       "title": "Experience to give you a better results"
     }
   ],
-  "TeamMebmerContent": [
+  "team_mebmer_content": [
     {
-      "profileImg": "../src/images/Gustavo.png",
+      "profileImg": "../public/images/Gustavo.png",
       "name": "Gustavo Herwitz",
       "job": "UI/UX Designer"
     },
     {
-      "profileImg": "../src/images/abram.png",
+      "profileImg": "../public/images/abram.png",
       "name": "Phillip Curtis",
       "job": "Graphic Designer"
     },
     {
-      "profileImg": "../src/images/phillip.png",
+      "profileImg": "../public/images/phillip.png",
       "name": "Talan Torff",
       "job": "Web Developer"
     },
     {
-      "profileImg": "../src/images/talan.png",
+      "profileImg": "../public/images/talan.png",
       "name": "Abram Vaccaro",
       "job": "App Developer"
+    }
+  ],
+  "clients_feedback": [
+    {
+      "photo": "../public/images/justin.jpg",
+      "name": "Justin Septimus",
+      "job": "CEO,word yt",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit a laoreet libero dis eget maecenas bibendum. Morbi lacinia eu, etiam volutpat morbi et amet, sagittis adipiscing. "
+    },
+    {
+      "photo": "../public/images/ashlynn.jpg",
+      "name": "Ashlynn Gouse",
+      "job": "Managing Director",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit a laoreet libero dis eget maecenas bibendum. Morbi lacinia eu, etiam volutpat morbi et amet, sagittis adipiscing. "
     }
   ]
 }

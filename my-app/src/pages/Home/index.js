@@ -2,11 +2,12 @@ import { useState, useEffect } from 'react'
 import { Api } from '../../api/api'
 
 export function Home() {
-  const [data, setData] = useState({})
+  const [aboutUs, setAboutUs] = useState({})
+  const [teamMembers, setTeamMembers] = useState({})
 
   useEffect(() => {
-    Api.getAboutUs(data, setData)
-    Api.getTeamMember(data, setData)
+    Api.getAboutUs(aboutUs, setAboutUs)
+    Api.getTeamMember(teamMembers, setTeamMembers)
   }, [])
 
   return (
