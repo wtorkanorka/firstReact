@@ -1,5 +1,11 @@
 import { useState, useEffect } from 'react'
 import { Api } from '../../api/api'
+import { Header } from '../../components/Header/Header'
+import { Hero } from '../../components/Hero/Hero'
+import { AboutUs } from '../../components/AboutUs/AboutUs'
+import { OurExpereince } from '../../components/OurExpereince/OurExpereince'
+import { TeamMember } from '../../components/TeamMember/TeamMember'
+import { OurWork } from '../../components/OurWork/OurWork'
 
 export function Home() {
   const [aboutUs, setAboutUs] = useState({})
@@ -11,9 +17,13 @@ export function Home() {
   }, [])
 
   return (
-    <div>
-      <h1>Home</h1>
-      <p>This is the home page</p>
-    </div>
+    <>
+      <Header />
+      <Hero />
+      <AboutUs />
+      <OurExpereince />
+      <TeamMember />
+      <OurWork />
+    </>
   )
 }

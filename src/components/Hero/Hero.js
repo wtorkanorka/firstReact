@@ -2,7 +2,7 @@ import styles from './hero.module.css'
 import heroImg from '../../assets/images/hero-img.png'
 import Button from '../Button/Button'
 
-export default function Hero() {
+export function Hero() {
   return (
     <div className={styles['hero']}>
       <img src={heroImg} alt="heroImg" className={styles['hero-img']} />

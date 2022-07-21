@@ -7,8 +7,8 @@ import Button from '../Button/Button'
 // import shareBoxLine from '../../assets/icons/share-box-line.svg'
 import AboutUsElement from '../AboutUsElement/AboutUsElement'
 
-export default function AboutUs(props) {
-  let file = props.file
+export function AboutUs() {
+  // let file = props.file
 
   return (
     <div className={style['about-us']}>
@@ -31,7 +31,7 @@ export default function AboutUs(props) {
         <Button />
       </div>
       <div className={style['about-us__second']}>
-        <AboutUsElement file={file} />
+        {/* <AboutUsElement /> */}
       </div>
     </div>
   )

@@ -23,35 +23,35 @@
   ],
   "team_mebmer_content": [
     {
-      "profileImg": "../public/images/Gustavo.png",
+      "profileImg": "/images/Gustavo.png",
       "name": "Gustavo Herwitz",
       "job": "UI/UX Designer"
     },
     {
-      "profileImg": "../public/images/abram.png",
+      "profileImg": "/images/abram.png",
       "name": "Phillip Curtis",
       "job": "Graphic Designer"
     },
     {
-      "profileImg": "../public/images/phillip.png",
+      "profileImg": "/images/phillip.png",
       "name": "Talan Torff",
       "job": "Web Developer"
     },
     {
-      "profileImg": "../public/images/talan.png",
+      "profileImg": "/images/talan.png",
       "name": "Abram Vaccaro",
       "job": "App Developer"
     }
   ],
   "clients_feedback": [
     {
-      "photo": "../public/images/justin.jpg",
+      "photo": "/images/justin.jpg",
       "name": "Justin Septimus",
       "job": "CEO,word yt",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit a laoreet libero dis eget maecenas bibendum. Morbi lacinia eu, etiam volutpat morbi et amet, sagittis adipiscing. "
     },
     {
-      "photo": "../public/images/ashlynn.jpg",
+      "photo": "/images/ashlynn.jpg",
       "name": "Ashlynn Gouse",
       "job": "Managing Director",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit a laoreet libero dis eget maecenas bibendum. Morbi lacinia eu, etiam volutpat morbi et amet, sagittis adipiscing. "

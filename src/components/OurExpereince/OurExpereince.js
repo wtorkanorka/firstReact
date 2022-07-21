@@ -1,9 +1,9 @@
 import React from 'react'
 import style from './OurExpereince.module.css'
 import Button from '../Button/Button'
-import OurExperienceElement from '../OurExperienceElement/OurExperienceElement'
+// import OurExperienceElement from '../OurExperienceElement/OurExperienceElement'
 
-export default function OurExpereince(props) {
+export function OurExpereince(props) {
   let test = document.querySelector('.our-experience')
 
   let file = props
@@ -21,7 +21,7 @@ export default function OurExpereince(props) {
       </p>
       <Button />
       <div className={style['our-experience__blocks']}>
-        <OurExperienceElement file={file} />
+        {/* <OurExperienceElement file={file} /> */}
       </div>
     </div>
   )

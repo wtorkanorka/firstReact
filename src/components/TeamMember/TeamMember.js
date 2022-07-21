@@ -1,8 +1,8 @@
 import React from 'react'
 import style from './TeamMember.module.css'
 
-import Profile from '../Profile/Profile'
-export default function TeamMember(props) {
+// import Profile from '../Profile/Profile'
+export function TeamMember(props) {
   let file = props.file
   return (
     <div className={style['team-mebmer']}>
@@ -13,7 +13,8 @@ export default function TeamMember(props) {
       </h2>
 
       <div className={style['profiles']}>
-        <Profile file={file} />
+        {/* <Profile file={file} /> */}
+        profiles
       </div>
     </div>
   )

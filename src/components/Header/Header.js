@@ -4,7 +4,7 @@ import mainLogo from '../../assets/images/logo.svg'
 import themeIcon from '../../assets/icons/light.svg'
 import menuIcon from '../../assets/icons/menu.svg'
 
-export default function Header() {
+export function Header() {
   return (
     <header className={styles['mobile-header']}>
       <a href="/">
